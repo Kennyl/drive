@@ -178,6 +178,12 @@ drive init ~/gdrive
 cd ~/gdrive
 ```
 
+If you have Google Service Account credentials, make sure the path to that file is set by
+environment variable `GOOGLE_APPLICATION_CREDENTIALS`, and make sure that your project has Google Drive
+enabled in order to use it. For more information, you can read 
++ https://developers.google.com/accounts/docs/application-default-credentials
++ https://github.com/odeke-em/drive/issues/879
+
 ### De Initializing
 
 The opposite of `drive init`, it will remove your credentials locally as well as configuration associated files.
